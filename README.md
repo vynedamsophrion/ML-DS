@@ -1,2 +1,1 @@
-Edit by Telugu Rakesh - Conflict Demo
-Edit by Paul - Conflict Demo
+Edit by Telugu Rakesh, Paul, and teammate - Conflict Resolved!
