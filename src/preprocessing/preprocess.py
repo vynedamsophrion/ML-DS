@@ -14,3 +14,4 @@ def basic_clean(df):
 
 if __name__ == "__main__":
     print("Preprocessing script ready!")
+#TODO: Add feature scaling
