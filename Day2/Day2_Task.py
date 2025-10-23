@@ -11,3 +11,11 @@ df = pd.DataFrame(data)
 
 # Display the dataset
 print(df)
+
+#Preprocessing (Commit 2)
+
+# Add new column for age in months
+df['Age_in_months'] = df['Age'] * 12
+
+# Display the updated dataset
+print(df)
