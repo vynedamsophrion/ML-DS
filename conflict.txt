@@ -1,2 +1,1 @@
-This line is from paul's branch.
-We are crerating a merge conflict.
+Conflict was resolved by Hemanth and Paul
