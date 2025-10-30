@@ -1,0 +1,10 @@
+# Supervised Learning
+
+Supervised Learning is a type of machine learning where the model is trained on labeled data — data that already contains input-output pairs. The goal is to learn a mapping function from inputs (X) to outputs (Y). There are two main types:
+- **Regression:** Predicting continuous values (e.g., house prices, temperature).
+- **Classification:** Predicting discrete labels (e.g., spam/not spam, disease detection).
+
+The process involves splitting the dataset into training and testing sets, training a model on known outputs, and then evaluating its performance on unseen data. Common algorithms include Linear Regression, Logistic Regression, Decision Trees, Random Forests, and Support Vector Machines (SVM).
+
+### Reflection
+From this project, I learned how supervised learning uses real labeled data to teach a model to predict outcomes. The challenge was ensuring clean data preprocessing and choosing the right evaluation metrics to verify model accuracy.
