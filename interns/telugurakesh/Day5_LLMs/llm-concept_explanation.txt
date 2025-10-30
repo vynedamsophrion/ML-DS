@@ -1,0 +1,22 @@
+Large Language Models (LLMs) and Prompt Engineering
+
+Large Language Models (LLMs) are advanced AI systems trained on massive text datasets to understand and generate human-like language. They are built using transformer architectures, which use self-attention mechanisms to process input sequences in parallel and learn contextual relationships between words. Popular examples include GPT, BERT, and LLaMA.
+
+How LLMs are Trained:
+Training happens in two major stages:
+1. **Pretraining:** The model learns general language patterns from large amounts of unlabeled text using objectives like Masked Language Modeling (BERT) or Next Token Prediction (GPT).
+2. **Fine-tuning:** The pretrained model is further trained on smaller, task-specific datasets (e.g., sentiment classification, summarization) to specialize its abilities.
+
+#What is Prompt Engineering
+Prompt Engineering is the process of designing effective text inputs (prompts) to get accurate, useful, or creative responses from an LLM. Because LLMs interpret context based on text input alone, the way we phrase questions or instructions greatly influences output quality.
+
+Common Prompting Techniques:
+1. Zero-shot prompting:** Asking a model a question directly, without any examples.
+2. Few-shot prompting:** Providing a few examples within the prompt to guide the model’s response.
+3. Chain-of-Thought (CoT):** Instructing the model to reason step-by-step before answering.
+
+#Why It Matters
+Prompt engineering bridges the gap between human intent and model behavior. It helps improve model accuracy, reduce ambiguity, and make LLMs more reliable for real-world applications like chatbots, coding assistants, and document summarizers.
+
+#Reflection
+I learned how powerful LLMs can be when fine-tuned on specific tasks and how crucial prompt structure is to performance. The challenge was understanding the internal training process and seeing how small wording changes drastically affect the results. This module improved my intuition for both model design and natural language prompting.
