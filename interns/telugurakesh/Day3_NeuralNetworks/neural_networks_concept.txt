@@ -1,0 +1,77 @@
+#Day 3 – Neural Networks: Learning Nonlinear Patterns
+
+#What Are Neural Networks?
+
+A **neural network** is a computational model inspired by the human brain. It consists of layers of interconnected “neurons” that process data and learn complex relationships between inputs and outputs.
+
+Each neuron receives inputs, multiplies them by weights, adds a bias, and applies an **activation function** to decide whether it should activate. Through **training**, these weights are adjusted to minimize the error between predictions and actual results.
+
+---
+
+#Key Components
+
+1.Input Layer:
+   Takes in the features of the dataset.
+
+2.Hidden Layers:
+   Perform nonlinear transformations to detect complex relationships.
+
+3.Output Layer:
+   Produces final predictions (classification or regression).
+
+4.Weights & Biases:
+   Parameters the model learns to optimize accuracy.
+
+5.Activation Functions:
+   Introduce nonlinearity (e.g., `sigmoid`, `ReLU`, `tanh`).
+
+---
+
+### Forward Propagation
+
+This is the process of sending inputs through the layers:
+
+```
+z = XW + b
+a = activation(z)
+```
+
+Each layer’s output becomes the next layer’s input.
+
+---
+
+###Backward Propagation (Learning Step)
+
+In backpropagation, the model:
+
+1. Computes the **error** between predicted and true values.
+2. Propagates this error backward.
+3. Updates weights and biases using **gradient descent**.
+
+This continues over many **epochs** until the model converges.
+
+---
+
+### XOR Problem – A Classic Example
+
+The XOR (exclusive OR) function cannot be solved by a linear model like logistic regression.
+A neural network with one hidden layer learns the **nonlinear boundary** needed to correctly separate the XOR outputs.
+
+* Input:
+  `[0,0], [0,1], [1,0], [1,1]`
+* Target:
+  `[0], [1], [1], [0]`
+
+By using a hidden layer with **sigmoid activations**, the network can learn to output values close to the correct XOR pattern.
+
+---
+
+#Reflections
+
+Through this exercise, I learned:
+
+* How neural networks perform **forward and backward passes**.
+* How **gradients** flow through each layer to update weights.
+* Why **nonlinear activation functions** are critical for complex tasks.
+* How even a tiny neural net can learn patterns that **linear models cannot**.
+
