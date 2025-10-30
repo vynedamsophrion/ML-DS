@@ -1,0 +1,37 @@
+Unsupervised Learning – Concept Overview
+
+Unsupervised Learning is a type of machine learning where the model is not given labeled data. Instead, it tries to find hidden structures, patterns, or relationships within the data on its own.
+
+Unlike supervised learning, where the goal is to predict a known output (like class labels), unsupervised learning focuses on understanding the underlying distribution of the data.
+
+There are two major types of unsupervised learning techniques:
+1. **Clustering** – grouping similar data points together based on similarity or distance metrics (e.g., K-Means, Hierarchical Clustering, DBSCAN).
+2. **Dimensionality Reduction** – reducing the number of features while preserving important information (e.g., PCA, t-SNE).
+
+Applications include:
+- Customer segmentation in marketing
+- Anomaly detection in cybersecurity and finance
+- Image compression
+- Document or topic grouping (NLP)
+
+**K-Means Clustering**
+K-Means is a simple and efficient clustering algorithm that partitions data into *k* clusters. It works by minimizing the variance within each cluster.
+
+Algorithm Steps:
+1. Choose *k* (number of clusters).
+2. Randomly initialize *k* centroids.
+3. Assign each data point to the nearest centroid.
+4. Recompute centroids as the mean of assigned points.
+5. Repeat steps 3–4 until convergence (centroids stop changing).
+
+The **Elbow Method** helps determine the optimal *k* by plotting the Within-Cluster Sum of Squares (WCSS) against different *k* values and finding the "elbow" point.
+
+Advantages:
+- Easy to understand and implement.
+- Scales well to large datasets.
+
+Limitations:
+- Must predefine *k*.
+- Sensitive to outliers and initial centroid placement.
+
+In summary, unsupervised learning enables data-driven pattern discovery without labeled outcomes, forming the foundation for exploratory data analysis and many AI applications.

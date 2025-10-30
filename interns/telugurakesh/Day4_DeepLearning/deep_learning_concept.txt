@@ -1,0 +1,23 @@
+Day 4: Deep Learning – CNN on MNIST
+
+Tasks Completed:
+1. Loaded and preprocessed the MNIST handwritten digits dataset (60,000 training + 10,000 test images).
+2. Built a Convolutional Neural Network (CNN) using TensorFlow and Keras.
+3. Defined a model with:
+   - 3 convolutional layers (32, 64, 64 filters)
+   - MaxPooling layers for feature reduction
+   - Flatten + Dense layers for final classification
+4. Compiled and trained the model for 5 epochs using the Adam optimizer.
+5. Achieved a test accuracy of ~99.02%, showing strong generalization.
+6. Visualized:
+   - Training vs validation accuracy/loss curves
+   - Predicted vs actual digits from test samples
+
+Key Takeaways:
+- CNNs excel at image recognition tasks due to their ability to automatically extract spatial features.
+- Normalizing pixel values improves convergence speed.
+- More filters and deeper layers can improve accuracy—but may increase training time.
+
+Conclusion:
+The CNN model efficiently learned to recognize handwritten digits with over 99% accuracy.
+This demonstrates the strength of convolutional layers in extracting meaningful visual patterns from image data.
