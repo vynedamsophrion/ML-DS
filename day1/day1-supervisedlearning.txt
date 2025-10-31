@@ -1,0 +1,15 @@
+Supervised Learning:-
+Supervised learning is a type of machine learning where the model is trained using labeled data — that means the input data already has the correct output. The goal of the model is to learn the relationship between inputs (features) and outputs (labels) so it can predict outcomes for new, unseen data.
+
+In simple terms, it’s like teaching a student with answer keys — the algorithm learns from examples and then tries to predict answers on its own. Supervised learning is divided into two main types:
+
+Regression – predicting continuous values (e.g., house prices, temperature)
+
+Classification – predicting categories (e.g., spam or not spam, pass or fail)
+
+Common algorithms include Linear Regression, Logistic Regression, Decision Trees, Support Vector Machines (SVM), and Random Forests. It’s widely used in finance (risk prediction), healthcare (disease detection), and real estate (price prediction) because of its reliability and interpretability.
+
+
+
+Reflection:-
+From this topic I learned how supervised learning helps machines make predictions when given correct examples during training. It was interesting to see how the algorithm adjusts itself to reduce prediction errors and become more accurate. I realized that the quality of data and proper labeling are very important for good model performance. The challenge I faced was understanding how models generalize to unseen data. This concept gave me a strong foundation to explore regression and classification in detail.

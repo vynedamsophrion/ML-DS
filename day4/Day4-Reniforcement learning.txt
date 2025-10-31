@@ -1,0 +1,49 @@
+Reinforcement Learning:-
+
+Reinforcement Learning (RL) is a type of machine learning where an agent learns by interacting with an environment to achieve a specific goal. Unlike supervised learning, which learns from labeled examples, RL learns from experience — the agent tries actions, observes outcomes, and receives rewards or penalties based on performance.
+
+The RL process follows a loop involving:
+
+State (S): The current situation or environment status.
+
+Action (A): The decision taken by the agent.
+
+Reward (R): The feedback received from the environment.
+
+Policy (π): A strategy that defines how the agent chooses actions based on states.
+
+Over time, the agent improves its policy to maximize cumulative rewards.
+Popular algorithms include Q-Learning, Deep Q-Networks (DQN), and Policy Gradient Methods.
+
+Reinforcement Learning powers applications such as robotics, self-driving cars, game-playing AI (like AlphaGo), and recommendation systems.
+It teaches machines to learn optimal actions — similar to how humans learn from experience and feedback.
+
+Generative Adversarial Networks:-
+
+Generative Adversarial Networks (GANs) are a special class of Generative Models that can learn to produce new data samples similar to the original dataset.
+A GAN consists of two neural networks that compete against each other:
+
+Generator (G): Creates fake data (for example, fake handwritten digits).
+
+Discriminator (D): Evaluates whether the input data is real or fake.
+
+The training process is adversarial —
+
+The Generator improves to fool the Discriminator.
+
+The Discriminator improves to detect fake data.
+
+Through this competition, both networks improve, and the Generator eventually produces realistic samples.
+GANs are used for image generation, data augmentation, art creation, deepfake generation, and creative AI applications.
+
+In this project, a simple GAN trained on the MNIST dataset was implemented using PyTorch.
+It learned to generate new handwritten digits similar to the original dataset — demonstrating how neural networks can create new data, not just classify or predict it.
+
+
+
+Reflection:-
+This project helped me clearly understand how reinforcement learning focuses on learning from feedback, while generative models focus on learning to create new data.
+Building a GAN using PyTorch gave me practical experience in adversarial training and the roles of the generator and discriminator.
+The most challenging part was stabilizing the training and balancing both model losses.
+Watching the generator improve and produce realistic handwritten digits over epochs was very motivating.
+This experiment strengthened my understanding of deep learning and showed me how creative and powerful neural networks can be when applied to real-world data generation tasks.
