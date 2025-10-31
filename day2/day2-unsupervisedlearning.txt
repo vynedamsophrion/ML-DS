@@ -1,0 +1,18 @@
+Unsupervised Learning:-
+Unsupervised learning is a type of machine learning where the model is not given any labeled outputs. Instead, it tries to find hidden patterns, similarities, or groupings within the data on its own. Unlike supervised learning, there are no predefined answers — the algorithm discovers structure by analyzing relationships among data points.
+
+The two main types of unsupervised learning techniques are:
+
+Clustering: Grouping similar data points together (e.g., customer segmentation).
+
+Dimensionality Reduction: Simplifying large datasets by reducing the number of features while keeping the important information (e.g., PCA)
+
+One of the most popular clustering algorithms is K-Means, which partitions data into K groups where each data point belongs to the cluster with the nearest mean (centroid). K-Means is widely used in customer segmentation, market analysis, image compression, and social network analysis.
+
+In this project, I used K-Means Clustering to segment customers based on their annual income and spending scores. The Elbow Method was used to determine the optimal number of clusters (K), and the results were visualized in 2D for better understanding.
+
+
+
+
+Reflection:-
+This task helped me understand how unsupervised learning can automatically group data without labeled outputs. Implementing K-Means made it clear how the algorithm iteratively adjusts centroids to form natural clusters. The challenge I faced was selecting the correct number of clusters, which I solved using the Elbow Method. Visualizing the clusters gave a clear view of customer behavior patterns. I also learned how clustering can be used in real-world applications like marketing and business analytics.
