@@ -1,0 +1,20 @@
+Neural Networks:-
+A Neural Network is a machine learning model inspired by how the human brain processes information. It is made up of layers of connected nodes called neurons, which process inputs, apply weights, and produce outputs.
+
+Each neuron performs a computation:
+
+z=w⋅x+b
+
+Then an activation function (like the Sigmoid function) is applied to introduce non-linearity, allowing the model to learn complex patterns.
+
+The learning process happens in two main steps:
+
+Forward Propagation: Data flows from the input layer through hidden layers to the output layer, producing a prediction.
+
+Backward Propagation: The model calculates the error between the prediction and the actual output, then adjusts the weights using gradient descent to minimize this error.
+
+This project implements a simple 2-layer Neural Network from scratch to learn the XOR logic gate, which cannot be solved by linear models. The network demonstrates how neural networks learn non-linear relationships through weight updates over multiple epochs.
+
+Reflection (5–7 Lines)
+
+This project helped me understand how neural networks actually learn using forward and backward propagation. Writing the entire code from scratch using NumPy gave me a clear idea of how weights and biases are adjusted during training to minimize error. The most challenging part was implementing the backpropagation logic and ensuring the gradients were updated correctly. Watching the network successfully learn the XOR logic was very satisfying and motivating. This experiment strengthened my confidence in building neural networks and helped me understand the core concepts behind deep learning frameworks like TensorFlow and PyTorch.

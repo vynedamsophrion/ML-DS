@@ -1,0 +1,25 @@
+Large Language Models (LLMs):
+Large Language Models are deep neural networks trained on massive text corpora to understand and generate human-like language. Models such as GPT, BERT, and T5 use the Transformer architecture, which relies on self-attention mechanisms to capture contextual relationships between words in a sequence. Unlike traditional models, LLMs are pre-trained on large text datasets using self-supervised tasks (like predicting missing words) and then fine-tuned for specific downstream applications such as sentiment analysis, summarization, or question answering.
+
+Fine-Tuning in Transformers:
+Fine-tuning involves adapting a pre-trained model to a specific dataset with labeled examples. During this process, the model’s final layers are retrained while retaining general language understanding from pre-training. This significantly reduces training cost and data requirements while maintaining high accuracy. In this project, we fine-tuned DistilBERT (a smaller, faster version of BERT) on a sentiment classification task using a subset of the IMDB dataset.
+
+Prompt Engineering:
+Prompt engineering is the process of crafting effective input prompts to elicit desired responses from LLMs. It’s especially useful when using powerful pre-trained models (like GPT) in zero-shot (no examples), few-shot (a few examples), or chain-of-thought (step-by-step reasoning) setups. Properly designed prompts can drastically improve performance without additional training.
+
+Use Cases of LLMs:
+
+Sentiment analysis (understanding emotional tone of text)
+
+Conversational chatbots
+
+Code completion and documentation
+
+Content summarization
+
+Information retrieval and knowledge extraction
+
+
+
+Reflection:
+Through this project, I learned how to fine-tune a pre-trained language model (DistilBERT) for a text classification task. It was impressive to see how transfer learning allows powerful performance even on small datasets. I understood the importance of tokenization, batch processing, and GPU acceleration in handling large text data. The training loop helped me visualize how losses decrease over epochs. I also explored prompt engineering, realizing how model responses vary with prompt phrasing. The experience deepened my appreciation for LLMs and their versatility across NLP tasks. Overall, this project showed me how AI can understand, adapt, and generate human-like language effectively.
